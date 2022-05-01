@@ -1,0 +1,24 @@
+{
+  "react/react-in-jsx-scope": "off",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@babel/eslint-parser",
+  "parseOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": { "jsx": true }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-debugger": false,
+    "no-console": false
+  },
+  "root": true
+}
