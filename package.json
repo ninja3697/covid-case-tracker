@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/ninja3697/covid-case-tracker/issues"
   },
-  "homepage": "https://github.com/ninja3697/covid-case-tracker",
+  "homepage": "https://ninja3697.github.io/covid-case-tracker",
   "devDependencies": {
     "@babel/core": "^7.17.10",
     "@babel/eslint-parser": "^7.17.0",
