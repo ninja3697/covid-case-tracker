@@ -1,0 +1,13 @@
+.data_table {
+  padding: 16px 0;
+  .title_row {
+    align-items: center;
+    .title {
+      text-align: center;
+    }
+  }
+  th {
+    position: sticky;
+    top: 0;
+  }
+}

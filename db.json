@@ -1,0 +1,432 @@
+{
+  "totalRecords": {
+    "lastUpdatedTime": 1651581647,
+    "records": [
+      {
+        "id": "active",
+        "name": "Active Cases",
+        "count": 19501,
+        "prevCountDiff": -408,
+        "cardColor": "primary",
+        "emotion": "FAILURE"
+      },
+      {
+        "id": "discharged",
+        "name": "Recovered",
+        "count": 42538976,
+        "prevCountDiff": 2723,
+        "cardColor": "success",
+        "emotion": "SUCCESS"
+      },
+      {
+        "id": "deaths",
+        "name": "Deaths",
+        "count": 523869,
+        "prevCountDiff": 26,
+        "cardColor": "danger",
+        "emotion": "FAILURE"
+      }
+    ]
+  },
+  "stateRecords": {
+    "lastUpdatedTime": 1651581647,
+    "records": [
+      {
+        "name": "Andaman and Nicobar Islands",
+        "active_diff": "1",
+        "discharged_diff": "99060",
+        "deaths_diff": "129",
+        "active": "0",
+        "discharged": "9906",
+        "deaths": "129",
+        "state_code": "1"
+      },
+
+      {
+        "name": "Andhra Pradesh",
+        "active_diff": "30",
+        "discharged_diff": "2304939",
+        "deaths_diff": "14730",
+        "active": "34",
+        "discharged": "2304939",
+        "deaths": "14730",
+        "state_code": "2"
+      },
+
+      {
+        "name": "Arunachal Pradesh",
+        "active_diff": "0",
+        "discharged_diff": "64199",
+        "deaths_diff": "296",
+        "active": "3",
+        "discharged": "64199",
+        "deaths": "296",
+        "state_code": "3"
+      },
+
+      {
+        "name": "Assam",
+        "active_diff": "10",
+        "discharged_diff": "716217",
+        "deaths_diff": "7986",
+        "active": "8",
+        "discharged": "716219",
+        "deaths": "7986",
+        "state_code": "4"
+      },
+
+      {
+        "name": "Bihar",
+        "active_diff": "41",
+        "discharged_diff": "818270",
+        "deaths_diff": "12256",
+        "active": "41",
+        "discharged": "818275",
+        "deaths": "12256",
+        "state_code": "5"
+      },
+
+      {
+        "name": "Chandigarh",
+        "active_diff": "71",
+        "discharged_diff": "90833",
+        "deaths_diff": "1165",
+        "active": "71",
+        "discharged": "90842",
+        "deaths": "1165",
+        "state_code": "6"
+      },
+
+      {
+        "name": "Chhattisgarh",
+        "active_diff": "38",
+        "discharged_diff": "1138202",
+        "deaths_diff": "14034",
+        "active": "44",
+        "discharged": "1138205",
+        "deaths": "14034",
+        "state_code": "7"
+      },
+
+      {
+        "name": "Dadra and Nagar Haveli and Daman and Diu",
+        "active_diff": "0",
+        "discharged_diff": "11437",
+        "deaths_diff": "4",
+        "active": "0",
+        "discharged": "11437",
+        "deaths": "4",
+        "state_code": "8"
+      },
+
+      {
+        "name": "Delhi",
+        "active_diff": "5997",
+        "discharged_diff": "1852388",
+        "deaths_diff": "26175",
+        "active": "5744",
+        "discharged": "1853717",
+        "deaths": "26175",
+        "state_code": "9"
+      },
+
+      {
+        "name": "Goa",
+        "active_diff": "45",
+        "discharged_diff": "241556",
+        "deaths_diff": "3832",
+        "active": "43",
+        "discharged": "241564",
+        "deaths": "3832",
+        "state_code": "10"
+      },
+
+      {
+        "name": "Gujarat",
+        "active_diff": "122",
+        "discharged_diff": "1213293",
+        "deaths_diff": "10943",
+        "active": "111",
+        "discharged": "1213320",
+        "deaths": "10943",
+        "state_code": "11"
+      },
+
+      {
+        "name": "Haryana",
+        "active_diff": "2496",
+        "discharged_diff": "979872",
+        "deaths_diff": "10619",
+        "active": "2501",
+        "discharged": "980306",
+        "deaths": "10619",
+        "state_code": "12"
+      },
+
+      {
+        "name": "Himachal Pradesh",
+        "active_diff": "59",
+        "discharged_diff": "280618",
+        "deaths_diff": "4134",
+        "active": "59",
+        "discharged": "280629",
+        "deaths": "4134",
+        "state_code": "13"
+      },
+
+      {
+        "name": "Jammu and Kashmir",
+        "active_diff": "66",
+        "discharged_diff": "449230",
+        "deaths_diff": "4751",
+        "active": "61",
+        "discharged": "449241",
+        "deaths": "4751",
+        "state_code": "14"
+      },
+
+      {
+        "name": "Jharkhand",
+        "active_diff": "29",
+        "discharged_diff": "429886",
+        "deaths_diff": "5317",
+        "active": "31",
+        "discharged": "429890",
+        "deaths": "5317",
+        "state_code": "15"
+      },
+
+      {
+        "name": "Karnataka",
+        "active_diff": "1780",
+        "discharged_diff": "3905844",
+        "deaths_diff": "40102",
+        "active": "1815",
+        "discharged": "3905920",
+        "deaths": "40102",
+        "state_code": "16"
+      },
+
+      {
+        "name": "Kerala***",
+        "active_diff": "2830",
+        "discharged_diff": "6469830",
+        "deaths_diff": 69083,
+        "active": "2779",
+        "discharged": "6470116",
+        "deaths": "69083",
+        "state_code": "17"
+      },
+
+      {
+        "name": "Ladakh",
+        "active_diff": "2",
+        "discharged_diff": "28016",
+        "deaths_diff": "228",
+        "active": "1",
+        "discharged": "28017",
+        "deaths": "228",
+        "state_code": "18"
+      },
+
+      {
+        "name": "Lakshadweep",
+        "active_diff": "0",
+        "discharged_diff": "11350",
+        "deaths_diff": "52",
+        "active": "0",
+        "discharged": "11350",
+        "deaths": "52",
+        "state_code": "19"
+      },
+
+      {
+        "name": "Madhya Pradesh",
+        "active_diff": "171",
+        "discharged_diff": "1030585",
+        "deaths_diff": "10735",
+        "active": "190",
+        "discharged": "1030589",
+        "deaths": "10735",
+        "state_code": "20"
+      },
+
+      {
+        "name": "Maharashtra",
+        "active_diff": "995",
+        "discharged_diff": "7729063",
+        "deaths_diff": "147843",
+        "active": "1016",
+        "discharged": "7729133",
+        "deaths": "147844",
+        "state_code": "21"
+      },
+
+      {
+        "name": "Manipur",
+        "active_diff": "14",
+        "discharged_diff": "135086",
+        "deaths_diff": "2120",
+        "active": "6",
+        "discharged": "135095",
+        "deaths": "2120",
+        "state_code": "22"
+      },
+
+      {
+        "name": "Meghalaya",
+        "active_diff": "6",
+        "discharged_diff": "92201",
+        "deaths_diff": "1593",
+        "active": "5",
+        "discharged": "92202",
+        "deaths": "1593",
+        "state_code": "23"
+      },
+
+      {
+        "name": "Mizoram",
+        "active_diff": "668",
+        "discharged_diff": "226129",
+        "deaths_diff": "696",
+        "active": "475",
+        "discharged": "226384",
+        "deaths": "697",
+        "state_code": "24"
+      },
+
+      {
+        "name": "Nagaland",
+        "active_diff": "0",
+        "discharged_diff": "34728",
+        "deaths_diff": "760",
+        "active": "0",
+        "discharged": "34728",
+        "deaths": "760",
+        "state_code": "25"
+      },
+
+      {
+        "name": "Odisha",
+        "active_diff": "136",
+        "discharged_diff": "1278795",
+        "deaths_diff": "9126",
+        "active": "136",
+        "discharged": "1278806",
+        "deaths": "9126",
+        "state_code": "26"
+      },
+
+      {
+        "name": "Puducherry",
+        "active_diff": "9",
+        "discharged_diff": "163819",
+        "deaths_diff": "1962",
+        "active": "8",
+        "discharged": "163820",
+        "deaths": "1962",
+        "state_code": "27"
+      },
+
+      {
+        "name": "Punjab",
+        "active_diff": "191",
+        "discharged_diff": "741676",
+        "deaths_diff": "17748",
+        "active": "183",
+        "discharged": "741712",
+        "deaths": "17751",
+
+        "state_code": "28"
+      },
+
+      {
+        "name": "Rajasthan",
+        "active_diff": "380",
+        "discharged_diff": "1273760",
+        "deaths_diff": "9552",
+        "active": "431",
+        "discharged": "1273798",
+        "deaths": "9552",
+        "state_code": "29"
+      },
+
+      {
+        "name": "Sikkim",
+        "active_diff": "4",
+        "discharged_diff": "38697",
+        "deaths_diff": "452",
+        "active": "4",
+        "discharged": "38697",
+        "deaths": "452",
+        "state_code": "30"
+      },
+
+      {
+        "name": "Tamil Nadu",
+        "active_diff": "514",
+        "discharged_diff": "3415440",
+        "deaths_diff": "38025",
+        "active": "505",
+        "discharged": "3415489",
+        "deaths": "38025",
+        "state_code": "31"
+      },
+
+      {
+        "name": "Telangana",
+        "active_diff": "335",
+        "discharged_diff": "787598",
+        "deaths_diff": "4111",
+        "active": "331",
+        "discharged": "787630",
+        "deaths": "4111",
+        "state_code": "32"
+      },
+
+      {
+        "name": "Tripura",
+        "active_diff": "2",
+        "discharged_diff": "99957",
+        "deaths_diff": "922",
+        "active": "3",
+        "discharged": "99957",
+        "deaths": "922",
+        "state_code": "33"
+      },
+
+      {
+        "name": "Uttarakhand",
+        "active_diff": "475",
+        "discharged_diff": "429322",
+        "deaths_diff": "7693",
+        "active": "472",
+        "discharged": "429343",
+        "deaths": "7693",
+        "state_code": "34"
+      },
+
+      {
+        "name": "Uttar Pradesh",
+        "active_diff": "1587",
+        "discharged_diff": "2049520",
+        "deaths_diff": "23508",
+        "active": "1621",
+        "discharged": "2049679",
+        "deaths": "23508",
+        "state_code": "35"
+      },
+
+      {
+        "name": "West Bengal",
+        "active_diff": "397",
+        "discharged_diff": "1996714",
+        "deaths_diff": "21202",
+        "active": "405",
+        "discharged": "1996733",
+        "deaths": "21202",
+        "state_code": "36"
+      }
+    ]
+  }
+}

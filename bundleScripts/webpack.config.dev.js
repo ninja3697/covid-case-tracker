@@ -1,6 +1,6 @@
-const webpack = require("webpack");
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { InjectManifest } = require("workbox-webpack-plugin");
 
 process.env.NODE_ENV = "development";
 
@@ -15,28 +15,35 @@ module.exports = {
   output: {
     path: DIST_PATH,
     publicPath: "/",
-    filename: "bundle.js"
+    filename: "bundle.js",
   },
   devServer: {
     port: "5000",
-    historyApiFallback: true
+    historyApiFallback: true,
+    devMiddleware: {
+      writeToDisk: true,
+    },
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: `${SOURCE_PATH}/index.html`
-    })
+      template: `${SOURCE_PATH}/index.html`,
+    }),
+    new InjectManifest({
+      swSrc: path.join(SOURCE_PATH, "src-sw.js"),
+      swDest: "sw.js",
+    }),
   ],
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ["babel-loader"]
+        use: ["babel-loader"],
       },
       {
         test: /\.(css|scss)$/,
-        use: ["style-loader", "css-loader", "sass-loader"]
-      }
-    ]
-  }
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
+    ],
+  },
 };

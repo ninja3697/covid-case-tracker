@@ -1,9 +1,8 @@
 import React from "react";
-import { createRoot } from "react-dom/client";
+import { render } from "react-dom";
+import App from "./app";
+import registerServiceWorker from "./swRegistraion";
 
-const App = () => {
-  return <div>React App Reloaded</div>;
-};
+render(<App />, document.getElementById("root"));
 
-const root = createRoot(document.getElementById("root"));
-root.render(<App />);
+registerServiceWorker();
