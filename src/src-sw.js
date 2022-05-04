@@ -16,7 +16,7 @@ precacheAndRoute(self.__WB_MANIFEST);
 // Using cache-first strategy with expiry to cache API responses
 registerRoute(
   ({ url }) => {
-    return url.origin === "http://localhost:3000";
+    return url.origin === "https://demo2805718.mockable.io";
   },
   new CacheFirst({
     cacheName: "data_services",

@@ -8,8 +8,8 @@
     "start": "http-server dist",
     "start:dev": "webpack serve --config bundleScripts/webpack.config.dev.js",
     "start:api": "json-server -d 1000 -w db.json",
-    "predeploy": "run-p start:api build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
