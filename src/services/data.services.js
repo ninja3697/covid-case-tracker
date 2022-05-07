@@ -1,12 +1,13 @@
 import ApiCall from "../interceptor/app.interceptor";
 
-const SERVICE_BASE_URL = "https://demo2805718.mockable.io/data-service/";
+const SERVICE_BASE_URL =
+  "https://peaceful-mesa-18231.herokuapp.com/data-service/";
 
 class DataService {
   static getTotalRecords() {
     const apiPayload = {
       method: "GET",
-      url: `${SERVICE_BASE_URL}fetch/totalRecords`,
+      url: `${SERVICE_BASE_URL}totalRecords`,
     };
     return ApiCall.call(apiPayload);
   }
@@ -14,7 +15,7 @@ class DataService {
   static getStateRecords() {
     const apiPayload = {
       method: "GET",
-      url: `${SERVICE_BASE_URL}fetch/stateRecords`,
+      url: `${SERVICE_BASE_URL}stateRecords`,
     };
     return ApiCall.call(apiPayload);
   }
