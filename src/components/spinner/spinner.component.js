@@ -5,7 +5,7 @@ import "./spinner.component.scss";
 
 const CustomSpinner = ({ animation = "border", ...props }) => (
   <div className="custom_spinner">
-    <Spinner animation="border" {...props} />
+    <Spinner animation={animation} {...props} />
   </div>
 );
 

@@ -9,12 +9,12 @@ import mergeStatReducer from "../../utils/mergeStateReducer";
 
 const initialState = {
   totalRecords: {
-    loading: true,
+    isLoading: true,
     lastUpdatedTime: null,
     records: [],
   },
   stateRecords: {
-    loading: true,
+    isLoading: true,
     lastUpdatedTime: null,
     records: [],
   },
@@ -41,7 +41,8 @@ const DashboardView = () => {
     });
   };
 
-  if (totalRecords.isLoading || stateRecords.loading) return <CustomSpinner />;
+  if (totalRecords.isLoading || stateRecords.isLoading)
+    return <CustomSpinner />;
 
   return (
     <div className="dashboard_view">

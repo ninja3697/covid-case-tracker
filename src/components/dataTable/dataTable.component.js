@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import { Col, Form, Row, Table } from "react-bootstrap";
 import {
   useTable,
@@ -11,7 +11,7 @@ import "./dataTable.component.scss";
 
 // Define a default UI for filtering
 const GlobalFilter = ({ globalFilter, setGlobalFilter }) => {
-  const [value, setValue] = React.useState(globalFilter);
+  const [value, setValue] = useState(globalFilter);
   const onChange = useAsyncDebounce((value) => {
     setGlobalFilter(value || undefined);
   }, 200);
