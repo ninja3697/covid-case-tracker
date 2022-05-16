@@ -1,5 +1,9 @@
 # covid-case-tracker
 
+Its a web application which shows the current number of active cases, recovered and deaths in India as well in each Indian state.
+
+You can access the live application [here](https://covid-case-tracking-app.netlify.app/).
+
 Directions to run on local server:
 
 1. Install all the dependencies using command:
@@ -16,3 +20,4 @@ Directions to run on local server:
 
 5. Access the PWA using the following link:
    http://localhost:8080/
+
